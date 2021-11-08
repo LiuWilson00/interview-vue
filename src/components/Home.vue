@@ -91,7 +91,24 @@ a {
 </style>
 <script>
 import axios from "axios";
-//https://dustinhsiao21.github.io/Javascript30-dustin/06%20-%20Type%20Ahead/
+/*
+請實作以下連結之範例:
+    範例連結:https://dustinhsiao21.github.io/Javascript30-dustin/06%20-%20Type%20Ahead/
+
+  基本題:
+    1.監聽input輸入之關鍵字,篩選API輸入之內容,並顯示於列表.
+    2.列表中的欄位,請依照範例的格式顯示,包含數字的顯示方法.
+  加分題:
+    3.欄位的內容根據關鍵字加上標註,並給予背景顏色.
+    4.輸入框清空後,顯示還原為初始狀態.
+    5.用async/await 及 promise分別實作兩個呼叫api的methods.
+
+  備註:
+    1.原則上所有樣式都已經設定完畢,但不限制更改或調整樣式.
+    2.專案內已經引入完成專案所需的套件,但若有需求可自行安裝新的套件.
+    3.可自行上網查找完成題目需要的資源.
+
+*/
 export default {
   name: "HelloWorld",
   data() {
